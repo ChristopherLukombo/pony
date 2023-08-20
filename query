@@ -1,2 +1,0 @@
-
-export PGPASSWORD='postgres'; psql -h 127.0.0.1 -p 5432 -U postgres -c "\copy (SELECT * FROM employee) to 'persons_client.csv' with csv";
